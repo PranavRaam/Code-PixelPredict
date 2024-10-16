@@ -1,0 +1,26 @@
+#canvas {
+    border: 2px solid black;
+    background-color: white;
+    cursor: crosshair;
+}
+
+.toolbox {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.main-app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
